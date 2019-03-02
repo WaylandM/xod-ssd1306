@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "content": "LCD height\nLCD width\nreset pin\n",
+      "id": "SyKP_qOUV",
+      "position": {
+        "x": 170,
+        "y": 102
+      },
+      "size": {
+        "height": 153,
+        "width": 170
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "SkfwO9_IN",
+      "position": {
+        "x": 34,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}
