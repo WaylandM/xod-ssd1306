@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {
+      "id": "HkIQh9Y8N",
+      "label": "DONE",
+      "position": {
+        "x": 0,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "S1IxnqYIE",
+      "position": {
+        "x": 0,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "SkyWnqYIN",
+      "label": "DEV",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-ssd1306-oled-i2c-device"
+    },
+    {
+      "id": "rkGz3cY8E",
+      "label": "UPD",
+      "position": {
+        "x": 34,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}

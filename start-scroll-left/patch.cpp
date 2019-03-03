@@ -11,8 +11,11 @@ void evaluate(Context ctx) {
 
     // Get a pointer to the `Adafruit_SSD1306` class instance
     auto display = getValue<input_DEV>(ctx);
+    auto start = getValue<input_START>(ctx);
+    auto stop = getValue<input_STOP>(ctx);
 
-    display->clearDisplay();
+    display->startscrollleft(start, stop);
 
     emitValue<output_DONE>(ctx, 1);
+
 }

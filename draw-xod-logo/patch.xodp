@@ -1,39 +1,39 @@
 {
   "nodes": [
     {
-      "id": "BJZFD5YIN",
-      "label": "DEV",
+      "id": "Bk3zIFKL4",
       "position": {
         "x": 0,
         "y": 102
-      },
-      "type": "@/input-ssd1306-oled-i2c-device"
-    },
-    {
-      "id": "BJwdw5KUE",
-      "position": {
-        "x": 0,
-        "y": 204
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "id": "BkZ9P5F8E",
+      "id": "HJDI8YYUN",
+      "label": "DONE",
+      "position": {
+        "x": 0,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "Skj7ItY8V",
       "label": "UPD",
       "position": {
         "x": 34,
-        "y": 102
+        "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "id": "rkQ3wctI4",
-      "label": "DONE",
+      "id": "rkPrUKFIV",
+      "label": "DEV",
       "position": {
         "x": 0,
-        "y": 306
+        "y": 0
       },
-      "type": "xod/patch-nodes/output-pulse"
+      "type": "@/input-ssd1306-oled-i2c-device"
     }
   ]
 }

@@ -12,7 +12,9 @@ void evaluate(Context ctx) {
     // Get a pointer to the `Adafruit_SSD1306` class instance
     auto display = getValue<input_DEV>(ctx);
 
-    display->clearDisplay();
+    auto dim_display = getValue<input_DIM>(ctx);
+
+    display->dim(dim_display);
 
     emitValue<output_DONE>(ctx, 1);
 }
