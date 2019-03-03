@@ -1,6 +1,9 @@
 {
   "nodes": [
     {
+      "boundLiterals": {
+        "__out__": "0Fh"
+      },
       "id": "Bkhuo9KL4",
       "label": "STOP",
       "position": {

@@ -1,2 +1,60 @@
 {
+  "nodes": [
+    {
+      "id": "B1zbxjAKLE",
+      "label": "DONE",
+      "position": {
+        "x": -1,
+        "y": 203
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "BJQ-liAK8N",
+      "label": "START",
+      "position": {
+        "x": 67,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "HJbloCY84",
+      "position": {
+        "x": -1,
+        "y": 101
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "HkxbljAtLV",
+      "label": "DEV",
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "type": "@/input-ssd1306-oled-i2c-device"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "0Fh"
+      },
+      "id": "HyVWgiRY8E",
+      "label": "STOP",
+      "position": {
+        "x": 101,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "SyZ-goAKUN",
+      "label": "UPD",
+      "position": {
+        "x": 33,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
 }

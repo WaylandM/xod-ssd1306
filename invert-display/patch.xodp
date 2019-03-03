@@ -21,10 +21,20 @@
       "id": "BkZ9P5F8E",
       "label": "UPD",
       "position": {
-        "x": 34,
+        "x": 68,
         "y": 102
       },
       "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Invert",
+      "id": "Sk5RTCF84",
+      "label": "INV",
+      "position": {
+        "x": 34,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/input-boolean"
     },
     {
       "id": "rkQ3wctI4",
