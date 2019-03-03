@@ -1,19 +1,32 @@
 {
-  "comments": [
-    {
-      "content": "LCD height\nLCD width\nreset pin\n",
-      "id": "SyKP_qOUV",
-      "position": {
-        "x": 170,
-        "y": 102
-      },
-      "size": {
-        "height": 153,
-        "width": 170
-      }
-    }
-  ],
+  "description": "Create SSD1306 OLED device.",
   "nodes": [
+    {
+      "boundLiterals": {
+        "__out__": "64"
+      },
+      "description": "Display  height in pixels (default 64).",
+      "id": "BJgxWIFUV",
+      "label": "HEIGHT",
+      "position": {
+        "x": 68,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "-1"
+      },
+      "description": "Reset pin. Default (-1) will share arduino reset pin.",
+      "id": "HyWOqSYLE",
+      "label": "RESET_PIN",
+      "position": {
+        "x": 102,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
     {
       "id": "SkfwO9_IN",
       "position": {
@@ -21,6 +34,29 @@
         "y": 102
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "128"
+      },
+      "description": "Display width in pixels (default 128).",
+      "id": "r1vM-UYL4",
+      "label": "WIDTH",
+      "position": {
+        "x": 34,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "An SSD1306 OLED device.",
+      "id": "ryH6tSt8N",
+      "label": "DEV",
+      "position": {
+        "x": 34,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-self"
     }
   ]
 }
