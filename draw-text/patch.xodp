@@ -1,6 +1,37 @@
 {
   "nodes": [
     {
+      "description": "Update",
+      "id": "B11QT1qLN",
+      "label": "UPD",
+      "position": {
+        "x": 204,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "Bkw-6yqI4",
+      "label": "Y",
+      "position": {
+        "x": 68,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "03h"
+      },
+      "id": "ByW_2k9IN",
+      "label": "SIZE",
+      "position": {
+        "x": 136,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
       "id": "HJIQ6AY8E",
       "label": "DEV",
       "position": {
@@ -18,10 +49,22 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "id": "Hypl61qUE",
+      "label": "X",
+      "position": {
+        "x": 34,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "\"30°C\""
+      },
       "id": "S1gH6CKIN",
       "label": "TEXT",
       "position": {
-        "x": 34,
+        "x": 102,
         "y": 0
       },
       "type": "xod/patch-nodes/input-string"
@@ -34,6 +77,18 @@
         "y": 204
       },
       "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "True"
+      },
+      "id": "rJgOsycUN",
+      "label": "WRAP",
+      "position": {
+        "x": 170,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
     }
   ]
 }
