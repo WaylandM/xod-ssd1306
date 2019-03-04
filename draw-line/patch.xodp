@@ -1,5 +1,5 @@
 {
-  "description": "Draw a line.",
+  "description": "Draw a line. Data written to display buffer. To show content of display buffer on screen use node send-buffer-to-display.",
   "nodes": [
     {
       "description": "End point y coordinate.",
@@ -26,7 +26,7 @@
       "id": "Bkr-NC9IN",
       "label": "UPD",
       "position": {
-        "x": 170,
+        "x": 204,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -52,6 +52,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "description": "Pulses on completion.",
       "id": "Sk4LEAqIV",
       "label": "DONE",
       "position": {
@@ -59,6 +60,16 @@
         "y": 204
       },
       "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Colour. Options are: WHITE, BLACK and INVERSE.",
+      "id": "SkAHs0584",
+      "label": "COLOUR",
+      "position": {
+        "x": 170,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
     },
     {
       "id": "r1h6mAcU4",

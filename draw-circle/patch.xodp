@@ -1,0 +1,83 @@
+{
+  "description": "Draw circle. Writes data to display buffer. To show content of display buffer on screen use node send-buffer-to-display.",
+  "nodes": [
+    {
+      "description": "If TRUE circle is filled with colour. If FALSE only the outline of the circle will be displayed.",
+      "id": "B13M_058N",
+      "label": "FILL",
+      "position": {
+        "x": 170,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Centre-point y coordinate.",
+      "id": "H1J2v0qL4",
+      "label": "Y",
+      "position": {
+        "x": 68,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "An SSD1306 OLED device.",
+      "id": "H1WqD0584",
+      "label": "DEV",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-ssd1306-oled-i2c-device"
+    },
+    {
+      "description": "Radius of circle (pixels).",
+      "id": "H1x13wRqIE",
+      "label": "RAD",
+      "position": {
+        "x": 102,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Pulses on completion.",
+      "id": "S1dZKAcU4",
+      "label": "DONE",
+      "position": {
+        "x": 0,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Colour. Options are: WHITE, BLACK and INVERSE.",
+      "id": "S1vOcR98N",
+      "label": "COLOUR",
+      "position": {
+        "x": 136,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-string"
+    },
+    {
+      "id": "r1FYvR5I4",
+      "position": {
+        "x": 0,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Centre-point x coordinate.",
+      "id": "rJtovR584",
+      "label": "X",
+      "position": {
+        "x": 34,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
+}
