@@ -1,2 +1,82 @@
 {
+  "description": "Draw a line.",
+  "nodes": [
+    {
+      "description": "End point y coordinate.",
+      "id": "B1h7EAqIV",
+      "label": "Y1",
+      "position": {
+        "x": 136,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Start point y coordinate.",
+      "id": "BJjmVAc8N",
+      "label": "Y0",
+      "position": {
+        "x": 68,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Update. Trigger write to display buffer.",
+      "id": "Bkr-NC9IN",
+      "label": "UPD",
+      "position": {
+        "x": 170,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "End point x coordinate.",
+      "id": "ByxiXEC9UE",
+      "label": "X1",
+      "position": {
+        "x": 102,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Start point x coordinate.",
+      "id": "HkP7VC58V",
+      "label": "X0",
+      "position": {
+        "x": 34,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "Sk4LEAqIV",
+      "label": "DONE",
+      "position": {
+        "x": 0,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "r1h6mAcU4",
+      "position": {
+        "x": 0,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An SSD1306 OLED device.",
+      "id": "r1re4Aq8N",
+      "label": "DEV",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-ssd1306-oled-i2c-device"
+    }
+  ]
 }

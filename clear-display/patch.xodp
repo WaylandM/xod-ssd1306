@@ -1,4 +1,5 @@
 {
+  "description": "Clear the display buffer.",
   "nodes": [
     {
       "description": "An SSD1306 OLED device.",

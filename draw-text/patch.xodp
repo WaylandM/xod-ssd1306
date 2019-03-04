@@ -1,7 +1,8 @@
 {
+  "description": "Writes string to display buffer. To show content of display buffer on screen use node send-buffer-to-display.",
   "nodes": [
     {
-      "description": "Update",
+      "description": "Update. Trigger write to display buffer.",
       "id": "B11QT1qLN",
       "label": "UPD",
       "position": {
@@ -11,6 +12,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Cursor position Y coordinate.",
       "id": "Bkw-6yqI4",
       "label": "Y",
       "position": {
@@ -23,6 +25,7 @@
       "boundLiterals": {
         "__out__": "03h"
       },
+      "description": "Font size.",
       "id": "ByW_2k9IN",
       "label": "SIZE",
       "position": {
@@ -32,6 +35,7 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "description": "An SSD1306 OLED device.",
       "id": "HJIQ6AY8E",
       "label": "DEV",
       "position": {
@@ -49,6 +53,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "Cursor position X coordinate.",
       "id": "Hypl61qUE",
       "label": "X",
       "position": {
@@ -61,6 +66,7 @@
       "boundLiterals": {
         "__out__": "\"30°C\""
       },
+      "description": "Text string. Special characters can be specified using octal index. For example the degree symbol \"°\" (decimal code 248) can be specified using \"\\370\".",
       "id": "S1gH6CKIN",
       "label": "TEXT",
       "position": {
@@ -70,6 +76,7 @@
       "type": "xod/patch-nodes/input-string"
     },
     {
+      "description": "Pulses on completion.",
       "id": "r1DL6CFU4",
       "label": "DONE",
       "position": {
@@ -82,6 +89,7 @@
       "boundLiterals": {
         "__out__": "True"
       },
+      "description": "If TRUE text is wrapped.",
       "id": "rJgOsycUN",
       "label": "WRAP",
       "position": {

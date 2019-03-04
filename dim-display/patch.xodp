@@ -1,4 +1,5 @@
 {
+  "description": "Dim display.",
   "nodes": [
     {
       "id": "B1SnziKUV",
@@ -9,6 +10,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "Update. Triggers action.",
       "id": "HJ-pMitLV",
       "label": "UPD",
       "position": {
@@ -18,6 +20,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "If TRUE display is dimmed. If FALSE display is set to normal brighness.",
       "id": "SklJmiYLE",
       "label": "DIM",
       "position": {
@@ -27,6 +30,7 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "Pulses on completion.",
       "id": "r1hfmjK8V",
       "label": "DONE",
       "position": {
@@ -36,6 +40,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "An SSD1306 OLED device.",
       "id": "rJ31mjF8E",
       "label": "DEV",
       "position": {
