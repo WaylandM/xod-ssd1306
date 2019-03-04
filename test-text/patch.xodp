@@ -124,8 +124,9 @@
     {
       "arityLevel": 2,
       "boundLiterals": {
-        "BkeKcj6ZZ-$1": "\"30°C\"",
-        "Hkqu9oaWb": "\"100%\""
+        "BkeKcj6ZZ": "\"\\370\"",
+        "BkeKcj6ZZ-$1": "\"C\"",
+        "Hkqu9oaWb": "\"37\""
       },
       "id": "SJt7Y8cIE",
       "position": {
