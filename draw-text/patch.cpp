@@ -26,6 +26,7 @@ void evaluate(Context ctx) {
     // move the data from XString to the plain C string
     dump(xString, cString);
 
+    display->cp437(true);
     display->setTextWrap(wrap);
     display->setCursor(cursor_x, cursor_y);
     display->setTextSize(font_size);

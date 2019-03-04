@@ -23,6 +23,17 @@
       }
     },
     {
+      "id": "BkaAcU58V",
+      "input": {
+        "nodeId": "SJpxGx98V",
+        "pinKey": "S1gH6CKIN"
+      },
+      "output": {
+        "nodeId": "SJt7Y8cIE",
+        "pinKey": "rksccsp-W"
+      }
+    },
+    {
       "id": "H1y4Ge9IN",
       "input": {
         "nodeId": "S1SXze5IV",
@@ -109,6 +120,19 @@
         "y": 306
       },
       "type": "@/draw-text"
+    },
+    {
+      "arityLevel": 2,
+      "boundLiterals": {
+        "BkeKcj6ZZ-$1": "\"30°C\"",
+        "Hkqu9oaWb": "\"100%\""
+      },
+      "id": "SJt7Y8cIE",
+      "position": {
+        "x": 272,
+        "y": 204
+      },
+      "type": "xod/core/concat"
     },
     {
       "id": "SyYyfgcIV",
