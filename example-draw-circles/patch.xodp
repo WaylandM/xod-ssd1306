@@ -1,0 +1,166 @@
+{
+  "links": [
+    {
+      "id": "H1OkOS38N",
+      "input": {
+        "nodeId": "HJCTwS3LE",
+        "pinKey": "H1WqD0584"
+      },
+      "output": {
+        "nodeId": "ByViwHh8N",
+        "pinKey": "ryH6tSt8N"
+      }
+    },
+    {
+      "id": "Hy7JOS2UE",
+      "input": {
+        "nodeId": "SyQaDrnLN",
+        "pinKey": "H1WqD0584"
+      },
+      "output": {
+        "nodeId": "ByViwHh8N",
+        "pinKey": "ryH6tSt8N"
+      }
+    },
+    {
+      "id": "HydedBnUV",
+      "input": {
+        "nodeId": "Bk2jDH2UV",
+        "pinKey": "r1H7MwK8E"
+      },
+      "output": {
+        "nodeId": "B1wjDHhUV",
+        "pinKey": "SJricUK8V"
+      }
+    },
+    {
+      "id": "HygWdr2I4",
+      "input": {
+        "nodeId": "HJCTwS3LE",
+        "pinKey": "B1BSYmjLE"
+      },
+      "output": {
+        "nodeId": "SyQaDrnLN",
+        "pinKey": "S1dZKAcU4"
+      }
+    },
+    {
+      "id": "rJ4eOHhL4",
+      "input": {
+        "nodeId": "SJchPr3UV",
+        "pinKey": "SJDbf_YUV"
+      },
+      "output": {
+        "nodeId": "HJCTwS3LE",
+        "pinKey": "S1dZKAcU4"
+      }
+    },
+    {
+      "id": "rJACwr2UE",
+      "input": {
+        "nodeId": "B1wjDHhUV",
+        "pinKey": "r1n7kPYIN"
+      },
+      "output": {
+        "nodeId": "ByViwHh8N",
+        "pinKey": "ryH6tSt8N"
+      }
+    },
+    {
+      "id": "rJckdr2U4",
+      "input": {
+        "nodeId": "SJchPr3UV",
+        "pinKey": "Sy6LZuYIE"
+      },
+      "output": {
+        "nodeId": "ByViwHh8N",
+        "pinKey": "ryH6tSt8N"
+      }
+    },
+    {
+      "id": "ry3l_H3UE",
+      "input": {
+        "nodeId": "SyQaDrnLN",
+        "pinKey": "B1BSYmjLE"
+      },
+      "output": {
+        "nodeId": "Bk2jDH2UV",
+        "pinKey": "rylSGPt8E"
+      }
+    },
+    {
+      "id": "ryxydB2UN",
+      "input": {
+        "nodeId": "Bk2jDH2UV",
+        "pinKey": "S1mxGvKUN"
+      },
+      "output": {
+        "nodeId": "ByViwHh8N",
+        "pinKey": "ryH6tSt8N"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B1wjDHhUV",
+      "position": {
+        "x": 102,
+        "y": 102
+      },
+      "type": "@/init"
+    },
+    {
+      "id": "Bk2jDH2UV",
+      "position": {
+        "x": 102,
+        "y": 204
+      },
+      "type": "@/clear-display"
+    },
+    {
+      "id": "ByViwHh8N",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/ssd1306-oled-i2c-device"
+    },
+    {
+      "boundLiterals": {
+        "B13M_058N": "True",
+        "H1J2v0qL4": "32",
+        "H1x13wRqIE": "24",
+        "rJtovR584": "96",
+        "rkgRBHhIV": "1"
+      },
+      "id": "HJCTwS3LE",
+      "position": {
+        "x": 102,
+        "y": 408
+      },
+      "type": "@/draw-circle"
+    },
+    {
+      "id": "SJchPr3UV",
+      "position": {
+        "x": 0,
+        "y": 510
+      },
+      "type": "@/send-buffer-to-display"
+    },
+    {
+      "boundLiterals": {
+        "H1J2v0qL4": "32",
+        "H1x13wRqIE": "16",
+        "rJtovR584": "32",
+        "rkgRBHhIV": "1"
+      },
+      "id": "SyQaDrnLN",
+      "position": {
+        "x": 102,
+        "y": 306
+      },
+      "type": "@/draw-circle"
+    }
+  ]
+}

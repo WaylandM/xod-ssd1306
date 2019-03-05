@@ -1,6 +1,7 @@
 {
   "nodes": [
     {
+      "description": "Cursor x coordinate.",
       "id": "HyfyYmjIV",
       "label": "X",
       "position": {
@@ -10,6 +11,7 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "description": "An SSD1306 OLED device.",
       "id": "S1jpOXsIE",
       "label": "DEV",
       "position": {
@@ -30,6 +32,7 @@
       "boundLiterals": {
         "__out__": "1"
       },
+      "description": "Colour of pixel. Options:\n0  = black;\n1 = white;\n2 = inverse.",
       "id": "Sk3yt7sIE",
       "label": "COLOUR",
       "position": {
@@ -49,6 +52,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "Cursor y coordinate.",
       "id": "SyiyFXjUN",
       "label": "Y",
       "position": {

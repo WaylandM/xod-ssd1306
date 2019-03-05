@@ -62,16 +62,6 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "Colour. Options are: WHITE, BLACK and INVERSE.",
-      "id": "S1vOcR98N",
-      "label": "COLOUR",
-      "position": {
-        "x": 136,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/input-string"
-    },
-    {
       "id": "r1FYvR5I4",
       "position": {
         "x": 0,
@@ -85,6 +75,16 @@
       "label": "X",
       "position": {
         "x": 34,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Colour of circle. Options:\n0  = black;\n1 = white;\n2 = inverse.",
+      "id": "rkgRBHhIV",
+      "label": "COLOUR",
+      "position": {
+        "x": 136,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"

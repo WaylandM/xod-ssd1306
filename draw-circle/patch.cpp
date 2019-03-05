@@ -12,16 +12,17 @@ void evaluate(Context ctx) {
     // Get a pointer to the `Adafruit_SSD1306` class instance
     auto display = getValue<input_DEV>(ctx);
 
-    auto x0 = getValue<input_X>(ctx);
-    auto y0 = getValue<input_Y>(ctx);
+    auto x = getValue<input_X>(ctx);
+    auto y = getValue<input_Y>(ctx);
     auto radius = getValue<input_RAD>(ctx);
+    auto colour = getValue<input_COLOUR>(ctx);
     auto fill = getValue<input_FILL>(ctx);
 
     if (fill){
-        
+        display->fillCircle(x, y, radius, colour);
+    }else{
+        display->drawCircle(x, y, radius, colour);
     }
-
-    display->drawLine(x0, y0, x1, y1, WHITE);
 
     emitValue<output_DONE>(ctx, 1);
 }

@@ -1,0 +1,90 @@
+{
+  "links": [
+    {
+      "id": "B1cxMS3LV",
+      "input": {
+        "nodeId": "HJfgGB2IV",
+        "pinKey": "r1n7kPYIN"
+      },
+      "output": {
+        "nodeId": "SkDgMB2U4",
+        "pinKey": "ryH6tSt8N"
+      }
+    },
+    {
+      "id": "H17XzHhLN",
+      "input": {
+        "nodeId": "S13ffH38E",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HkYWzB2I4",
+        "pinKey": "HywWxHhU4"
+      }
+    },
+    {
+      "id": "H1xmMr38E",
+      "input": {
+        "nodeId": "SJQfGS3LV",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HkYWzB2I4",
+        "pinKey": "HyXeeBhL4"
+      }
+    },
+    {
+      "id": "rkCZGH3UV",
+      "input": {
+        "nodeId": "HkYWzB2I4",
+        "pinKey": "BysCJr2IN"
+      },
+      "output": {
+        "nodeId": "SkDgMB2U4",
+        "pinKey": "ryH6tSt8N"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "HJfgGB2IV",
+      "position": {
+        "x": 68,
+        "y": 102
+      },
+      "type": "@/init"
+    },
+    {
+      "id": "HkYWzB2I4",
+      "position": {
+        "x": 34,
+        "y": 204
+      },
+      "type": "@/get-display-dimensions"
+    },
+    {
+      "id": "S13ffH38E",
+      "position": {
+        "x": 68,
+        "y": 306
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "SJQfGS3LV",
+      "position": {
+        "x": 34,
+        "y": 306
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "SkDgMB2U4",
+      "position": {
+        "x": 34,
+        "y": 0
+      },
+      "type": "@/ssd1306-oled-i2c-device"
+    }
+  ]
+}
