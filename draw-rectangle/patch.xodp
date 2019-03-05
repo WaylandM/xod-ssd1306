@@ -1,2 +1,106 @@
 {
+  "description": "Draw a rectangle. Writes data to display buffer. To show content of display buffer on screen use node send-buffer-to-display.",
+  "nodes": [
+    {
+      "id": "HJVKiR83IN",
+      "position": {
+        "x": -1,
+        "y": 101
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Top left corner x coordinate.",
+      "id": "HJrYjCL28E",
+      "label": "X",
+      "position": {
+        "x": 33,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Top left corner y coordinate.",
+      "id": "SJxFo082LN",
+      "label": "Y",
+      "position": {
+        "x": 67,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "An SSD1306 OLED device.",
+      "id": "SkWYsRL28N",
+      "label": "DEV",
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "type": "@/input-ssd1306-oled-i2c-device"
+    },
+    {
+      "description": "Update. Trigger write to display buffer.",
+      "id": "r1IFsRIn8E",
+      "label": "UPD",
+      "position": {
+        "x": 238,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "If TRUE rectangle is filled with colour. If FALSE only the outline of the rectangle will be displayed.",
+      "id": "r1KoAU3LN",
+      "label": "FILL",
+      "position": {
+        "x": 204,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Height in pixels.",
+      "id": "r1nJkD28V",
+      "label": "H",
+      "position": {
+        "x": 135,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Pulses on completion.",
+      "id": "rJQtjAU3UE",
+      "label": "DONE",
+      "position": {
+        "x": -1,
+        "y": 203
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Width in pixels.",
+      "id": "rkftoCL2UN",
+      "label": "W",
+      "position": {
+        "x": 101,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "1"
+      },
+      "description": "Colour of circle. Options:\n0  = black;\n1 = white;\n2 = inverse.",
+      "id": "rkvYiAInI4",
+      "label": "COLOUR",
+      "position": {
+        "x": 170,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
 }

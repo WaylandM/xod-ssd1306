@@ -1,5 +1,5 @@
 {
-  "description": "Draw circle. Writes data to display buffer. To show content of display buffer on screen use node send-buffer-to-display.",
+  "description": "Draw a circle. Writes data to display buffer. To show content of display buffer on screen use node send-buffer-to-display.",
   "nodes": [
     {
       "description": "If TRUE circle is filled with colour. If FALSE only the outline of the circle will be displayed.",
@@ -44,7 +44,7 @@
     {
       "description": "Radius of circle (pixels).",
       "id": "H1x13wRqIE",
-      "label": "RAD",
+      "label": "R",
       "position": {
         "x": 102,
         "y": 0
@@ -80,6 +80,9 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "boundLiterals": {
+        "__out__": "1"
+      },
       "description": "Colour of circle. Options:\n0  = black;\n1 = white;\n2 = inverse.",
       "id": "rkgRBHhIV",
       "label": "COLOUR",

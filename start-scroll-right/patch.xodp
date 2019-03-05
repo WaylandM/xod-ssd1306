@@ -1,6 +1,8 @@
 {
+  "description": "Activate a right-handed scroll for all or part of the display.  To scroll the whole display set START to 00h and STOP to 0Fh.",
   "nodes": [
     {
+      "description": "Pulses on start of scrolling.",
       "id": "B1zbxjAKLE",
       "label": "DONE",
       "position": {
@@ -10,11 +12,12 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "First row.",
       "id": "BJQ-liAK8N",
       "label": "START",
       "position": {
-        "x": 67,
-        "y": -1
+        "x": 34,
+        "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
     },
@@ -27,6 +30,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "An SSD1306 OLED device.",
       "id": "HkxbljAtLV",
       "label": "DEV",
       "position": {
@@ -39,20 +43,22 @@
       "boundLiterals": {
         "__out__": "0Fh"
       },
+      "description": "Last row.",
       "id": "HyVWgiRY8E",
       "label": "STOP",
       "position": {
-        "x": 101,
-        "y": -1
+        "x": 68,
+        "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "description": "Update. Trigger scrolling.",
       "id": "SyZ-goAKUN",
       "label": "UPD",
       "position": {
-        "x": 33,
-        "y": -1
+        "x": 102,
+        "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     }

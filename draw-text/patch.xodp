@@ -6,13 +6,26 @@
       "id": "B11QT1qLN",
       "label": "UPD",
       "position": {
-        "x": 204,
+        "x": 238,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "Cursor position Y coordinate.",
+      "boundLiterals": {
+        "__out__": "1"
+      },
+      "description": "Colour of circle. Options:\n0  = black;\n1 = white;\n2 = inverse.",
+      "id": "BkhUQ_2IN",
+      "label": "COLOUR",
+      "position": {
+        "x": 170,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Cursor position y coordinate.",
       "id": "Bkw-6yqI4",
       "label": "Y",
       "position": {
@@ -53,7 +66,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "Cursor position X coordinate.",
+      "description": "Cursor position x coordinate.",
       "id": "Hypl61qUE",
       "label": "X",
       "position": {
@@ -93,7 +106,7 @@
       "id": "rJgOsycUN",
       "label": "WRAP",
       "position": {
-        "x": 170,
+        "x": 204,
         "y": 0
       },
       "type": "xod/patch-nodes/input-boolean"

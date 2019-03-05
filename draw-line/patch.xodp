@@ -15,6 +15,7 @@
       "boundLiterals": {
         "__out__": "1"
       },
+      "description": "Colour of line. Options:\n0  = black;\n1 = white;\n2 = inverse.",
       "id": "BJ7fUQiL4",
       "label": "COLOUR",
       "position": {

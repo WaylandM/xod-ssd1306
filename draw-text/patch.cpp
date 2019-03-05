@@ -15,9 +15,8 @@ void evaluate(Context ctx) {
     auto cursor_y = getValue<input_Y>(ctx);
     auto xString = getValue<input_TEXT>(ctx);
     auto font_size = getValue<input_SIZE>(ctx);
+    auto colour = getValue<input_COLOUR>(ctx);
     auto wrap = getValue<input_WRAP>(ctx);
-
-
 
     // `length` returns the number of characters and you need an extra one to keep the
     // terminal NUL-character used in C string representation. Initialize to 0’s to
@@ -31,10 +30,8 @@ void evaluate(Context ctx) {
     display->setTextWrap(wrap);
     display->setCursor(cursor_x, cursor_y);
     display->setTextSize(font_size);
-    display->setTextColor(WHITE);
+    display->setTextColor(colour);
     display->println(cString);
-
-    //display->println(F("The eternal sunshine of the spotless mind."));
 
     emitValue<output_DONE>(ctx, 1);
 }

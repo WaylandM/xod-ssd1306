@@ -1,4 +1,5 @@
 {
+  "description": "Activate a left-handed scroll for all or part of the display.  To scroll the whole display set START to 00h and STOP to 0Fh.",
   "nodes": [
     {
       "boundLiterals": {
@@ -7,12 +8,13 @@
       "id": "Bkhuo9KL4",
       "label": "STOP",
       "position": {
-        "x": 102,
+        "x": 68,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "description": "Pulses on start of scrolling.",
       "id": "H17eq5KIN",
       "label": "DONE",
       "position": {
@@ -33,21 +35,23 @@
       "id": "S1fOiqFLN",
       "label": "START",
       "position": {
-        "x": 68,
+        "x": 34,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "description": "Update. Trigger scrolling.",
       "id": "S1p0Y5Y84",
       "label": "UPD",
       "position": {
-        "x": 34,
+        "x": 102,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "An SSD1306 OLED device.",
       "id": "rJoTFcKLE",
       "label": "DEV",
       "position": {

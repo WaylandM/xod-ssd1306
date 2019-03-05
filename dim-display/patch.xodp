@@ -1,5 +1,5 @@
 {
-  "description": "Dim display.",
+  "description": "Dim display. This has an immediate effect on the display, no need to use the send-buffer-to-display node -- buffer contents are not changed.",
   "nodes": [
     {
       "id": "B1SnziKUV",
@@ -20,7 +20,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "If TRUE display is dimmed. If FALSE display is set to normal brighness.",
+      "description": "TRUE to enable lower brightness mode, FALSE for full brightness.",
       "id": "SklJmiYLE",
       "label": "DIM",
       "position": {

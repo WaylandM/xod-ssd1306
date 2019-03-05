@@ -14,14 +14,15 @@ void evaluate(Context ctx) {
 
     auto x = getValue<input_X>(ctx);
     auto y = getValue<input_Y>(ctx);
-    auto radius = getValue<input_R>(ctx);
+    auto w = getValue<input_W>(ctx);
+    auto h = getValue<input_H>(ctx);
     auto colour = getValue<input_COLOUR>(ctx);
     auto fill = getValue<input_FILL>(ctx);
 
     if (fill){
-        display->fillCircle(x, y, radius, colour);
+        display->fillRect(x, y, w, h, colour);
     }else{
-        display->drawCircle(x, y, radius, colour);
+        display->drawRect(x, y, w, h, colour);
     }
 
     emitValue<output_DONE>(ctx, 1);
