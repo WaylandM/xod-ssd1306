@@ -2,7 +2,7 @@
   "description": "Draw a triangle. Writes data to display buffer. To show content of display buffer on screen use node send-buffer-to-display.",
   "nodes": [
     {
-      "description": "If TRUE triangle is filled with colour. If FALSE only the outline of the triangle will be displayed.",
+      "description": "TRUE to fill triangle with colour, FALSE to draw outline only.",
       "id": "Bk2kHunU4",
       "label": "FILL",
       "position": {
