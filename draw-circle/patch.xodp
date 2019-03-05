@@ -12,6 +12,16 @@
       "type": "xod/patch-nodes/input-boolean"
     },
     {
+      "description": "Update. Trigger write to display buffer.",
+      "id": "B1BSYmjLE",
+      "label": "UPD",
+      "position": {
+        "x": 204,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
       "description": "Centre-point y coordinate.",
       "id": "H1J2v0qL4",
       "label": "Y",

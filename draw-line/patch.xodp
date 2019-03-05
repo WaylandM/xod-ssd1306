@@ -12,6 +12,18 @@
       "type": "xod/patch-nodes/input-number"
     },
     {
+      "boundLiterals": {
+        "__out__": "1"
+      },
+      "id": "BJ7fUQiL4",
+      "label": "COLOUR",
+      "position": {
+        "x": 170,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
       "description": "Start point y coordinate.",
       "id": "BJjmVAc8N",
       "label": "Y0",
@@ -60,16 +72,6 @@
         "y": 204
       },
       "type": "xod/patch-nodes/output-pulse"
-    },
-    {
-      "description": "Colour. Options are: WHITE, BLACK and INVERSE.",
-      "id": "SkAHs0584",
-      "label": "COLOUR",
-      "position": {
-        "x": 170,
-        "y": 0
-      },
-      "type": "xod/patch-nodes/input-string"
     },
     {
       "id": "r1h6mAcU4",

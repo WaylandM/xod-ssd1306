@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "HyfyYmjIV",
+      "label": "X",
+      "position": {
+        "x": 34,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "S1jpOXsIE",
+      "label": "DEV",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-ssd1306-oled-i2c-device"
+    },
+    {
+      "id": "S1qndmiIV",
+      "position": {
+        "x": 0,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "1"
+      },
+      "id": "Sk3yt7sIE",
+      "label": "COLOUR",
+      "position": {
+        "x": 102,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Pulses on completion.",
+      "id": "Sy3LY7oUV",
+      "label": "DONE",
+      "position": {
+        "x": 0,
+        "y": 204
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "SyiyFXjUN",
+      "label": "Y",
+      "position": {
+        "x": 68,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Update. Trigger write to display buffer.",
+      "id": "rkCbYXoU4",
+      "label": "UPD",
+      "position": {
+        "x": 136,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}
