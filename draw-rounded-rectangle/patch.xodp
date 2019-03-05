@@ -70,7 +70,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "If TRUE rectangle is filled with colour. If FALSE only the outline of the rectangle will be displayed.",
+      "description": "TRUE to fill rectangle with colour, FALSE to draw outline only.",
       "id": "r1tZnDhLV",
       "label": "FILL",
       "position": {

@@ -2,7 +2,7 @@
   "description": "Draw a circle. Writes data to display buffer. To show content of display buffer on screen use node send-buffer-to-display.",
   "nodes": [
     {
-      "description": "If TRUE circle is filled with colour. If FALSE only the outline of the circle will be displayed.",
+      "description": "TRUE to fill circle with colour, FALSE to draw outline only.",
       "id": "B13M_058N",
       "label": "FILL",
       "position": {
