@@ -200,7 +200,7 @@
     {
       "id": "BJtE6E3I4",
       "position": {
-        "x": 238,
+        "x": 306,
         "y": 612
       },
       "type": "xod/core/any"
@@ -235,7 +235,7 @@
     {
       "id": "S1-fQVhLE",
       "position": {
-        "x": 340,
+        "x": 442,
         "y": 714
       },
       "type": "xod/core/defer"
@@ -271,7 +271,7 @@
     {
       "id": "rk727HnUE",
       "position": {
-        "x": 272,
+        "x": 442,
         "y": 816
       },
       "type": "xod/core/pulse-on-false"
