@@ -1,4 +1,5 @@
 {
+  "description": "Initializes an SSD1306 OLED device.",
   "nodes": [
     {
       "boundLiterals": {

@@ -36,8 +36,8 @@
       "id": "H1gqfBu2IV",
       "label": "Y2",
       "position": {
-        "x": 202,
-        "y": -1
+        "x": 204,
+        "y": 0
       },
       "type": "xod/patch-nodes/input-number"
     },
@@ -73,7 +73,7 @@
       "boundLiterals": {
         "__out__": "1"
       },
-      "description": "Colour of circle. Options:\n0  = black;\n1 = white;\n2 = inverse.",
+      "description": "Colour of circle. Options:\n0  = black;\n1 = white;\n2 = invert.",
       "id": "S1DhJBO38V",
       "label": "COLOUR",
       "position": {

@@ -20,6 +20,9 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "boundLiterals": {
+        "__out__": "True"
+      },
       "description": "TRUE to enable lower brightness mode, FALSE for full brightness.",
       "id": "SklJmiYLE",
       "label": "DIM",

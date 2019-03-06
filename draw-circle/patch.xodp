@@ -83,7 +83,7 @@
       "boundLiterals": {
         "__out__": "1"
       },
-      "description": "Colour of circle. Options:\n0  = black;\n1 = white;\n2 = inverse.",
+      "description": "Colour of circle. Options:\n0  = black;\n1 = white;\n2 = invert.",
       "id": "rkgRBHhIV",
       "label": "COLOUR",
       "position": {

@@ -1,5 +1,5 @@
 {
-  "description": "Clear the display buffer.",
+  "description": "Clear contents of display buffer (set all pixels to off). Changes buffer contents only, no immediate effect on display. Follow up with a call to send-buffer-to-display, or with other graphics commands as needed by one's own application.",
   "nodes": [
     {
       "description": "An SSD1306 OLED device.",

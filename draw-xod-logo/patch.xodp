@@ -1,4 +1,5 @@
 {
+  "description": "Draw XOD logo. Logo is 128 x 64 pixels.",
   "nodes": [
     {
       "id": "Bk3zIFKL4",
@@ -9,6 +10,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "Pulses on completion.",
       "id": "HJDI8YYUN",
       "label": "DONE",
       "position": {
@@ -18,6 +20,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "Update. Trigger write to display buffer.",
       "id": "Skj7ItY8V",
       "label": "UPD",
       "position": {
@@ -27,6 +30,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "An SSD1306 OLED device.",
       "id": "rkPrUKFIV",
       "label": "DEV",
       "position": {
