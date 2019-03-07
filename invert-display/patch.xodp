@@ -30,6 +30,9 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "boundLiterals": {
+        "__out__": "True"
+      },
       "description": "If true, switch to invert mode (black-on-white), else normal mode (white-on-black). ",
       "id": "Sk5RTCF84",
       "label": "INV",

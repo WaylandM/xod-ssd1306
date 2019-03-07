@@ -4,8 +4,8 @@
     {
       "id": "HJVKiR83IN",
       "position": {
-        "x": -1,
-        "y": 101
+        "x": 0,
+        "y": 102
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },

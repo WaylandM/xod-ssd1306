@@ -11,12 +11,12 @@ void evaluate(Context ctx) {
 
     // Get a pointer to the `Adafruit_SSD1306` class instance
     auto display = getValue<input_DEV>(ctx);
-    auto x0 = getValue<inputX0>(ctx);
-    auto y0 = getValue<inputY0>(ctx);
-    auto x1 = getValue<inputX1>(ctx);
-    auto y1 = getValue<inputY1>(ctx);
-    auto x2 = getValue<inputX2>(ctx);
-    auto y2 = getValue<inputY2>(ctx); 
+    auto x0 = getValue<input_X0>(ctx);
+    auto y0 = getValue<input_Y0>(ctx);
+    auto x1 = getValue<input_X1>(ctx);
+    auto y1 = getValue<input_Y1>(ctx);
+    auto x2 = getValue<input_X2>(ctx);
+    auto y2 = getValue<input_Y2>(ctx);
     auto colour = getValue<input_COLOUR>(ctx);
     auto fill = getValue<input_FILL>(ctx);
 

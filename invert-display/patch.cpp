@@ -18,4 +18,3 @@ void evaluate(Context ctx) {
 
     emitValue<output_DONE>(ctx, 1);
 }
-}
