@@ -21,7 +21,13 @@ void evaluate(Context ctx) {
     // `length` returns the number of characters and you need an extra one to keep the
     // terminal NUL-character used in C string representation. Initialize to 0’s to
     // ensure the last char is indeed NUL
-    char cString[length(xString) + 1] = { 0 };
+    // The following line worked on Arduino, but would not compile for esp8266:
+    // char cString[length(xString) + 1] = { 0 };
+    // Bug fixed by the following four lines provided by Martin Brader:
+    int N=length(xString) + 1;
+    char cString[N];
+    for(int i=0;i<N;i++)
+    cString[i]=0;
     // move the data from XString to the plain C string
     dump(xString, cString);
 
