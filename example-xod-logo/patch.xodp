@@ -57,17 +57,6 @@
       }
     },
     {
-      "id": "S188i668E",
-      "input": {
-        "nodeId": "r10NsKF8V",
-        "pinKey": "r1n7kPYIN"
-      },
-      "output": {
-        "nodeId": "S1pzj6aUV",
-        "pinKey": "__out__"
-      }
-    },
-    {
       "id": "S1MPnT6L4",
       "input": {
         "nodeId": "rJRUnTp8V",
@@ -112,17 +101,6 @@
       }
     },
     {
-      "id": "rJbUoTa8E",
-      "input": {
-        "nodeId": "rJayoapLN",
-        "pinKey": "r1H7MwK8E"
-      },
-      "output": {
-        "nodeId": "r10NsKF8V",
-        "pinKey": "SJricUK8V"
-      }
-    },
-    {
       "id": "rySDhp68E",
       "input": {
         "nodeId": "rJMEnT6U4",
@@ -163,8 +141,9 @@
       },
       "id": "B1W5o6TIN",
       "position": {
-        "x": 136,
-        "y": 612
+        "units": "slots",
+        "x": 4,
+        "y": 6
       },
       "type": "xod/core/delay"
     },
@@ -174,8 +153,9 @@
       },
       "id": "BJJpsTpI4",
       "position": {
-        "x": 136,
-        "y": 816
+        "units": "slots",
+        "x": 4,
+        "y": 8
       },
       "type": "xod/core/delay"
     },
@@ -183,8 +163,9 @@
       "id": "BJP4jaa84",
       "label": "DEV",
       "position": {
-        "x": 102,
-        "y": 306
+        "units": "slots",
+        "x": 3,
+        "y": 3
       },
       "type": "xod/patch-nodes/from-bus"
     },
@@ -192,8 +173,9 @@
       "id": "BJwgjppIE",
       "label": "DEV",
       "position": {
-        "x": 68,
-        "y": 204
+        "units": "slots",
+        "x": 2,
+        "y": 2
       },
       "type": "xod/patch-nodes/to-bus"
     },
@@ -201,8 +183,9 @@
       "id": "BkwAj6a8V",
       "label": "DEV",
       "position": {
-        "x": 102,
-        "y": 918
+        "units": "slots",
+        "x": 3,
+        "y": 9
       },
       "type": "xod/patch-nodes/from-bus"
     },
@@ -210,16 +193,18 @@
       "id": "H1Sho66UE",
       "label": "DEV",
       "position": {
-        "x": 102,
-        "y": 714
+        "units": "slots",
+        "x": 3,
+        "y": 7
       },
       "type": "xod/patch-nodes/from-bus"
     },
     {
       "id": "H1sNjttLV",
       "position": {
-        "x": 68,
-        "y": 102
+        "units": "slots",
+        "x": 2,
+        "y": 1
       },
       "type": "@/ssd1306-oled-i2c-device"
     },
@@ -227,8 +212,9 @@
       "id": "HktVj6pLV",
       "label": "DEV",
       "position": {
-        "x": 102,
-        "y": 408
+        "units": "slots",
+        "x": 3,
+        "y": 4
       },
       "type": "xod/patch-nodes/from-bus"
     },
@@ -236,49 +222,36 @@
       "id": "HyltViapUN",
       "label": "DEV",
       "position": {
-        "x": 102,
-        "y": 510
-      },
-      "type": "xod/patch-nodes/from-bus"
-    },
-    {
-      "id": "S1pzj6aUV",
-      "label": "DEV",
-      "position": {
-        "x": 102,
-        "y": 204
+        "units": "slots",
+        "x": 3,
+        "y": 5
       },
       "type": "xod/patch-nodes/from-bus"
     },
     {
       "id": "SkwBsYt84",
       "position": {
-        "x": 136,
-        "y": 408
+        "units": "slots",
+        "x": 4,
+        "y": 4
       },
       "type": "@/draw-xod-logo"
     },
     {
       "id": "Sy7256T8N",
       "position": {
-        "x": 136,
-        "y": 510
+        "units": "slots",
+        "x": 4,
+        "y": 5
       },
       "type": "@/send-buffer-to-display"
     },
     {
-      "id": "r10NsKF8V",
-      "position": {
-        "x": 136,
-        "y": 204
-      },
-      "type": "@/init"
-    },
-    {
       "id": "rJMEnT6U4",
       "position": {
-        "x": 136,
-        "y": 714
+        "units": "slots",
+        "x": 4,
+        "y": 7
       },
       "type": "@/invert-display"
     },
@@ -288,16 +261,21 @@
       },
       "id": "rJRUnTp8V",
       "position": {
-        "x": 136,
-        "y": 918
+        "units": "slots",
+        "x": 4,
+        "y": 9
       },
       "type": "@/invert-display"
     },
     {
+      "boundLiterals": {
+        "r1H7MwK8E": "On Boot"
+      },
       "id": "rJayoapLN",
       "position": {
-        "x": 136,
-        "y": 306
+        "units": "slots",
+        "x": 4,
+        "y": 3
       },
       "type": "@/clear-display"
     }

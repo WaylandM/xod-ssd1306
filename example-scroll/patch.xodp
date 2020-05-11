@@ -13,17 +13,6 @@
       }
     },
     {
-      "id": "BJPJySpL4",
-      "input": {
-        "nodeId": "BkekkSTIV",
-        "pinKey": "r1H7MwK8E"
-      },
-      "output": {
-        "nodeId": "HknnAVa84",
-        "pinKey": "SJricUK8V"
-      }
-    },
-    {
       "id": "BJe7jrp8V",
       "input": {
         "nodeId": "SJ-GoSTLN",
@@ -132,25 +121,18 @@
         "nodeId": "SkGSoHpLE",
         "pinKey": "__out__"
       }
-    },
-    {
-      "id": "rJt6orpI4",
-      "input": {
-        "nodeId": "HknnAVa84",
-        "pinKey": "r1n7kPYIN"
-      },
-      "output": {
-        "nodeId": "S162sH6LN",
-        "pinKey": "__out__"
-      }
     }
   ],
   "nodes": [
     {
+      "boundLiterals": {
+        "r1H7MwK8E": "On Boot"
+      },
       "id": "BkekkSTIV",
       "position": {
-        "x": 238,
-        "y": 102
+        "units": "slots",
+        "x": 7,
+        "y": 1
       },
       "type": "@/clear-display"
     },
@@ -160,8 +142,9 @@
       },
       "id": "ByzBkBa8N",
       "position": {
-        "x": 34,
-        "y": 408
+        "units": "slots",
+        "x": 1,
+        "y": 4
       },
       "type": "@/start-scroll"
     },
@@ -169,34 +152,29 @@
       "id": "H1hvjH6LV",
       "label": "DEV",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 612
+        "y": 6
       },
       "type": "xod/patch-nodes/from-bus"
     },
     {
       "id": "HJ5kxHTLV",
       "position": {
-        "x": 34,
-        "y": 306
+        "units": "slots",
+        "x": 1,
+        "y": 3
       },
       "type": "@/send-buffer-to-display"
     },
     {
       "id": "HJr5oBTUE",
       "position": {
-        "x": 34,
-        "y": 612
+        "units": "slots",
+        "x": 1,
+        "y": 6
       },
       "type": "@/stop-scroll"
-    },
-    {
-      "id": "HknnAVa84",
-      "position": {
-        "x": 204,
-        "y": 0
-      },
-      "type": "@/init"
     },
     {
       "boundLiterals": {
@@ -204,24 +182,20 @@
       },
       "id": "Hy3vlrpUN",
       "position": {
-        "x": 34,
-        "y": 510
+        "units": "slots",
+        "x": 1,
+        "y": 5
       },
       "type": "xod/core/delay"
     },
     {
-      "id": "S162sH6LN",
-      "label": "DEV",
-      "position": {
-        "x": 170,
-        "y": 0
+      "boundLiterals": {
+        "rJj1D289I": "3Ch"
       },
-      "type": "xod/patch-nodes/from-bus"
-    },
-    {
       "id": "S1EnRNpLN",
       "position": {
-        "x": 34,
+        "units": "slots",
+        "x": 1,
         "y": 0
       },
       "type": "@/ssd1306-oled-i2c-device"
@@ -230,8 +204,9 @@
       "id": "SJ-GoSTLN",
       "label": "DEV",
       "position": {
-        "x": 34,
-        "y": 102
+        "units": "slots",
+        "x": 1,
+        "y": 1
       },
       "type": "xod/patch-nodes/to-bus"
     },
@@ -239,8 +214,9 @@
       "id": "SkGSoHpLE",
       "label": "DEV",
       "position": {
-        "x": 204,
-        "y": 102
+        "units": "slots",
+        "x": 6,
+        "y": 1
       },
       "type": "xod/patch-nodes/from-bus"
     },
@@ -248,8 +224,9 @@
       "id": "rJZovoH6UE",
       "label": "DEV",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 408
+        "y": 4
       },
       "type": "xod/patch-nodes/from-bus"
     },
@@ -261,8 +238,9 @@
       },
       "id": "ry0JyH6IV",
       "position": {
-        "x": 34,
-        "y": 204
+        "units": "slots",
+        "x": 1,
+        "y": 2
       },
       "type": "@/draw-text"
     },
@@ -270,8 +248,9 @@
       "id": "ryXPsST84",
       "label": "DEV",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 204
+        "y": 2
       },
       "type": "xod/patch-nodes/from-bus"
     },
@@ -279,8 +258,9 @@
       "id": "ryjwjr6IV",
       "label": "DEV",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 306
+        "y": 3
       },
       "type": "xod/patch-nodes/from-bus"
     }

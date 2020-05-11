@@ -42,6 +42,5 @@ void evaluate(Context ctx) {
       raiseError(ctx);
       return;
     }
-
     emitValue<output_DEV>(ctx, display);
 }
