@@ -36,5 +36,12 @@ void evaluate(Context ctx) {
     // Create a new object in the memory area reserved previously.
     Type display = new (state->mem) Adafruit_SSD1306(width, height, &Wire, reset_pin);
 
+    // Attempt to initialize display module; if attempt fails emit pulse from error port
+    auto address = getValue<input_ADDRESS>(ctx);
+    if (!display->begin(SSD1306_SWITCHCAPVCC, address)) {
+      raiseError(ctx);
+      return;
+    }
+
     emitValue<output_DEV>(ctx, display);
 }

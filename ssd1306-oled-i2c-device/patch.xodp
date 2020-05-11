@@ -9,7 +9,8 @@
       "id": "BJgxWIFUV",
       "label": "HEIGHT",
       "position": {
-        "x": 68,
+        "units": "slots",
+        "x": 3,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -22,7 +23,8 @@
       "id": "HyWOqSYLE",
       "label": "RESET_PIN",
       "position": {
-        "x": 102,
+        "units": "slots",
+        "x": 4,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -30,8 +32,9 @@
     {
       "id": "SkfwO9_IN",
       "position": {
-        "x": 34,
-        "y": 102
+        "units": "slots",
+        "x": 1,
+        "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
@@ -43,18 +46,34 @@
       "id": "r1vM-UYL4",
       "label": "WIDTH",
       "position": {
-        "x": 34,
+        "units": "slots",
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "3Ch"
+      },
+      "description": "I²C address of the SSD1306 OLED device.",
+      "id": "rJj1D289I",
+      "label": "ADDRESS",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
     },
     {
       "description": "An SSD1306 OLED device.",
       "id": "ryH6tSt8N",
       "label": "DEV",
       "position": {
-        "x": 34,
-        "y": 204
+        "units": "slots",
+        "x": 1,
+        "y": 2
       },
       "type": "xod/patch-nodes/output-self"
     }
