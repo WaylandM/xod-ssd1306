@@ -1,3 +1,6 @@
+// Declare that node raises errors
+#pragma XOD error_raise enable
+
 // Tell XOD where it could download the library:
 #pragma XOD require "https://github.com/adafruit/Adafruit_SSD1306"
 #pragma XOD require "https://github.com/adafruit/Adafruit-GFX-Library"
