@@ -4,6 +4,7 @@
 // Tell XOD where it could download the library:
 #pragma XOD require "https://github.com/adafruit/Adafruit_SSD1306"
 #pragma XOD require "https://github.com/adafruit/Adafruit-GFX-Library"
+#pragma XOD require "https://github.com/adafruit/Adafruit_BusIO"
 
 //Include C++ libraries
 {{#global}}
@@ -39,7 +40,7 @@ void evaluate(Context ctx) {
     // Create a new object in the memory area reserved previously.
     Type display = new (state->mem) Adafruit_SSD1306(width, height, &Wire, reset_pin);
 
-    // Attempt to initialize display module; if attempt fails emit pulse from error port
+    // Attempt to initialize display module; if attempt fails raise error
     auto address = getValue<input_ADDRESS>(ctx);
     if (!display->begin(SSD1306_SWITCHCAPVCC, address)) {
       raiseError(ctx);
