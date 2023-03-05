@@ -6,7 +6,8 @@
       "id": "BJ7VRJEpIV",
       "label": "FIRST",
       "position": {
-        "x": 34,
+        "units": "slots",
+        "x": 1,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
@@ -14,8 +15,9 @@
     {
       "id": "H1bERyNTIV",
       "position": {
-        "x": -1,
-        "y": 101
+        "units": "slots",
+        "x": -0.05,
+        "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
@@ -27,7 +29,8 @@
       "id": "H1j2-NpUE",
       "label": "DIR",
       "position": {
-        "x": 102,
+        "units": "slots",
+        "x": 3,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
@@ -40,7 +43,8 @@
       "id": "HkG4AJ4TIV",
       "label": "LAST",
       "position": {
-        "x": 68,
+        "units": "slots",
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-byte"
@@ -50,8 +54,9 @@
       "id": "HylNR1VTU4",
       "label": "DEV",
       "position": {
-        "x": -1,
-        "y": -1
+        "units": "slots",
+        "x": -0.05,
+        "y": -0.05
       },
       "type": "@/input-ssd1306-oled-i2c-device"
     },
@@ -60,8 +65,9 @@
       "id": "rJ4RkEp84",
       "label": "DONE",
       "position": {
-        "x": -1,
-        "y": 203
+        "units": "slots",
+        "x": -0.05,
+        "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -70,7 +76,8 @@
       "id": "rJN4Ay4a8E",
       "label": "UPD",
       "position": {
-        "x": 136,
+        "units": "slots",
+        "x": 4,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"

@@ -6,7 +6,8 @@
       "id": "B1h7EAqIV",
       "label": "Y1",
       "position": {
-        "x": 136,
+        "units": "slots",
+        "x": 4,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -19,7 +20,8 @@
       "id": "BJ7fUQiL4",
       "label": "COLOUR",
       "position": {
-        "x": 170,
+        "units": "slots",
+        "x": 5,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -29,7 +31,8 @@
       "id": "BJjmVAc8N",
       "label": "Y0",
       "position": {
-        "x": 68,
+        "units": "slots",
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -39,7 +42,8 @@
       "id": "Bkr-NC9IN",
       "label": "UPD",
       "position": {
-        "x": 204,
+        "units": "slots",
+        "x": 6,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -49,7 +53,8 @@
       "id": "ByxiXEC9UE",
       "label": "X1",
       "position": {
-        "x": 102,
+        "units": "slots",
+        "x": 3,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -59,7 +64,8 @@
       "id": "HkP7VC58V",
       "label": "X0",
       "position": {
-        "x": 34,
+        "units": "slots",
+        "x": 1,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -69,16 +75,18 @@
       "id": "Sk4LEAqIV",
       "label": "DONE",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 204
+        "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
     },
     {
       "id": "r1h6mAcU4",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 102
+        "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
@@ -87,6 +95,7 @@
       "id": "r1re4Aq8N",
       "label": "DEV",
       "position": {
+        "units": "slots",
         "x": 0,
         "y": 0
       },

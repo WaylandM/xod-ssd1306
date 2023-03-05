@@ -341,6 +341,28 @@
         "nodeId": "B1yZk1RIN",
         "pinKey": "H1731r_2UE"
       }
+    },
+    {
+      "id": "r1jYzHGJ2",
+      "input": {
+        "nodeId": "BkLPMSGJn",
+        "pinKey": "BkzpJBMyh"
+      },
+      "output": {
+        "nodeId": "SypOGSfy3",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "B18cMBfyn",
+      "input": {
+        "nodeId": "Bk-yhhATUV",
+        "pinKey": "r1H7MwK8E"
+      },
+      "output": {
+        "nodeId": "BkLPMSGJn",
+        "pinKey": "HyffpkBfJh"
+      }
     }
   ],
   "nodes": [
@@ -641,6 +663,25 @@
         "units": "slots",
         "x": 6,
         "y": 3
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "BkLPMSGJn",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 1
+      },
+      "type": "@/init"
+    },
+    {
+      "id": "SypOGSfy3",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 0
       },
       "type": "xod/patch-nodes/from-bus"
     }

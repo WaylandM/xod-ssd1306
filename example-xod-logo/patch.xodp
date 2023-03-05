@@ -132,6 +132,28 @@
         "nodeId": "HyltViapUN",
         "pinKey": "__out__"
       }
+    },
+    {
+      "id": "rJbE4HMy2",
+      "input": {
+        "nodeId": "HkR7Nrfk2",
+        "pinKey": "BkzpJBMyh"
+      },
+      "output": {
+        "nodeId": "H1sNjttLV",
+        "pinKey": "ryH6tSt8N"
+      }
+    },
+    {
+      "id": "ByQEVHf12",
+      "input": {
+        "nodeId": "rJayoapLN",
+        "pinKey": "r1H7MwK8E"
+      },
+      "output": {
+        "nodeId": "HkR7Nrfk2",
+        "pinKey": "HyffpkBfJh"
+      }
     }
   ],
   "nodes": [
@@ -278,6 +300,15 @@
         "y": 3
       },
       "type": "@/clear-display"
+    },
+    {
+      "id": "HkR7Nrfk2",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "@/init"
     }
   ]
 }

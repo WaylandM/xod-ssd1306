@@ -4,8 +4,9 @@
     {
       "id": "B1SnziKUV",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 102
+        "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
@@ -14,7 +15,8 @@
       "id": "HJ-pMitLV",
       "label": "UPD",
       "position": {
-        "x": 68,
+        "units": "slots",
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -27,7 +29,8 @@
       "id": "SklJmiYLE",
       "label": "DIM",
       "position": {
-        "x": 34,
+        "units": "slots",
+        "x": 1,
         "y": 0
       },
       "type": "xod/patch-nodes/input-boolean"
@@ -37,8 +40,9 @@
       "id": "r1hfmjK8V",
       "label": "DONE",
       "position": {
+        "units": "slots",
         "x": 0,
-        "y": 204
+        "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -47,6 +51,7 @@
       "id": "rJ31mjF8E",
       "label": "DEV",
       "position": {
+        "units": "slots",
         "x": 0,
         "y": 0
       },

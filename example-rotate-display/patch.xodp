@@ -132,6 +132,28 @@
         "nodeId": "Bkvibyw9U",
         "pinKey": "__out__"
       }
+    },
+    {
+      "id": "B1HZmBzJ2",
+      "input": {
+        "nodeId": "S1fx7HGy2",
+        "pinKey": "BkzpJBMyh"
+      },
+      "output": {
+        "nodeId": "BJxZ7BzJn",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "r1v-QHGkn",
+      "input": {
+        "nodeId": "BJKaJJD5L",
+        "pinKey": "r1H7MwK8E"
+      },
+      "output": {
+        "nodeId": "S1fx7HGy2",
+        "pinKey": "HyffpkBfJh"
+      }
     }
   ],
   "nodes": [
@@ -285,6 +307,25 @@
         "y": 2
       },
       "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "S1fx7HGy2",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 1
+      },
+      "type": "@/init"
+    },
+    {
+      "id": "BJxZ7BzJn",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
     }
   ]
 }

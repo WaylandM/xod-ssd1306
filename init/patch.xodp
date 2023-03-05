@@ -1,9 +1,9 @@
 {
-  "description": "Clear contents of display buffer (set all pixels to off). Changes buffer contents only, no immediate effect on display. Follow up with a call to send-buffer-to-display, or with other graphics commands as needed by one's own application.",
+  "description": "Initialize SSD1306 OLED device.",
   "nodes": [
     {
       "description": "An SSD1306 OLED device.",
-      "id": "S1mxGvKUN",
+      "id": "BkzpJBMyh",
       "label": "DEV",
       "position": {
         "units": "slots",
@@ -13,18 +13,21 @@
       "type": "@/input-ssd1306-oled-i2c-device"
     },
     {
-      "description": "Update. Triggers clear display.",
-      "id": "r1H7MwK8E",
-      "label": "UPD",
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Pulse triggers initialization.",
+      "id": "SJxfayBf13",
+      "label": "INIT",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "id": "r1JkGDY8V",
+      "id": "SJbzaJrzJ3",
       "position": {
         "units": "slots",
         "x": 0,
@@ -34,7 +37,7 @@
     },
     {
       "description": "Pulses on completion.",
-      "id": "rylSGPt8E",
+      "id": "HyffpkBfJh",
       "label": "DONE",
       "position": {
         "units": "slots",
@@ -42,6 +45,20 @@
         "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "3Ch"
+      },
+      "description": "I²C address of the SSD1306 OLED device.",
+      "id": "rk4Uerz1n",
+      "label": "ADDRESS",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
     }
   ]
 }
