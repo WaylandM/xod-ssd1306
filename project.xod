@@ -2,5 +2,5 @@
   "description": "Arduino library for OLED displays driven by the SSD1306 chip. Communication via I2C. Wraps Adafruit_SSD1306 (https://github.com/adafruit/Adafruit_SSD1306).",
   "license": "BSD",
   "name": "ssd1306-oled-i2c",
-  "version": "0.0.8"
+  "version": "0.0.9"
 }

@@ -10,7 +10,7 @@
       "label": "HEIGHT",
       "position": {
         "units": "slots",
-        "x": 3,
+        "x": 4,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -24,7 +24,7 @@
       "label": "RESET_PIN",
       "position": {
         "units": "slots",
-        "x": 4,
+        "x": 5,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -47,7 +47,7 @@
       "label": "WIDTH",
       "position": {
         "units": "slots",
-        "x": 2,
+        "x": 3,
         "y": 0
       },
       "type": "xod/patch-nodes/input-number"
@@ -73,6 +73,20 @@
         "y": 0
       },
       "type": "xod/i2c/input-i2c"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "3Ch"
+      },
+      "description": "I²C address of the SSD1306 OLED device.",
+      "id": "SkCpR9VJ2",
+      "label": "ADDRESS",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
     }
   ]
 }

@@ -68,17 +68,6 @@
       }
     },
     {
-      "id": "SJuLs66U4",
-      "input": {
-        "nodeId": "rJayoapLN",
-        "pinKey": "S1mxGvKUN"
-      },
-      "output": {
-        "nodeId": "BJP4jaa84",
-        "pinKey": "__out__"
-      }
-    },
-    {
       "id": "Sy_Jh6p8N",
       "input": {
         "nodeId": "B1W5o6TIN",
@@ -134,25 +123,14 @@
       }
     },
     {
-      "id": "rJbE4HMy2",
+      "id": "HJrOxjN12",
       "input": {
-        "nodeId": "HkR7Nrfk2",
-        "pinKey": "BkzpJBMyh"
+        "nodeId": "rJayoapLN",
+        "pinKey": "S1mxGvKUN"
       },
       "output": {
         "nodeId": "H1sNjttLV",
         "pinKey": "ryH6tSt8N"
-      }
-    },
-    {
-      "id": "ByQEVHf12",
-      "input": {
-        "nodeId": "rJayoapLN",
-        "pinKey": "r1H7MwK8E"
-      },
-      "output": {
-        "nodeId": "HkR7Nrfk2",
-        "pinKey": "HyffpkBfJh"
       }
     }
   ],
@@ -182,22 +160,12 @@
       "type": "xod/core/delay"
     },
     {
-      "id": "BJP4jaa84",
-      "label": "DEV",
-      "position": {
-        "units": "slots",
-        "x": 3,
-        "y": 3
-      },
-      "type": "xod/patch-nodes/from-bus"
-    },
-    {
       "id": "BJwgjppIE",
       "label": "DEV",
       "position": {
         "units": "slots",
         "x": 2,
-        "y": 2
+        "y": 3
       },
       "type": "xod/patch-nodes/to-bus"
     },
@@ -226,7 +194,7 @@
       "position": {
         "units": "slots",
         "x": 2,
-        "y": 1
+        "y": 2
       },
       "type": "@/ssd1306-oled-i2c-device"
     },
@@ -300,15 +268,6 @@
         "y": 3
       },
       "type": "@/clear-display"
-    },
-    {
-      "id": "HkR7Nrfk2",
-      "position": {
-        "units": "slots",
-        "x": 4,
-        "y": 2
-      },
-      "type": "@/init"
     }
   ]
 }
